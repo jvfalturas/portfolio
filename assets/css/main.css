@@ -4239,3 +4239,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+#custom_ul {
+  text-align: left !important;
+  font-size: 12px;
+  margin: 0 !important;               /* removes outer spacing */
+  padding-left: 1.2rem !important;    /* controls indent from the left */
+  list-style-position: outside !important; /* keeps bullets nicely aligned */
+}
